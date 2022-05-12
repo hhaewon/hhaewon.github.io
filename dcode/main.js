@@ -74,6 +74,6 @@ function changeLangSelect() {
   }
 }
 
-input.addEventListener("change", (event) => {
+input.addEventListener("input", (event) => {
   key = parseInt(input.value);
 });
