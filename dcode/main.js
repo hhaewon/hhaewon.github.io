@@ -38,7 +38,7 @@ function changeHandler(event, mode) {
         translatedIndex = translatedIndex % SYMBOLS.length;
       } else if (translatedIndex < 0) {
         while (translatedIndex < 0) {
-          translatedIndex += len(SYMBOLS);
+          translatedIndex += SYMBOLS.length;
         }
       }
 
